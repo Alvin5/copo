@@ -1,8 +1,8 @@
 # copo
 
-##Docs for Copo
+## Docs for Copo
 
-###Details
+### Details
 
 - Feature 1
 - Feature 2
