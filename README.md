@@ -59,3 +59,31 @@
 - Embeddable Architecture
   - Embed apps/feeds/profiles/posts in your website or mobile app
   - Control embedded web-app from your web-app/mobile-app via API
+
+# Technical Infra
+
+## Frontend
+
+## Backend
+
+Multi-tenant backend to support multiple social networks/apps using a single unified backend infra which offers SOTA cost-effective architecture for serving and operating.
+
+The backend is in-house built custom Graph architecture that builds on previous and new SOTA architectures referencing [Facebook TAO](https://research.facebook.com/publications/tao-facebooks-distributed-data-store-for-the-social-graph/), [Tiktok's ByteGraph](https://vldb.org/pvldb/vol15/p3306-li.pdf) and many other engineering practices from Meta, Pinterest, Instagram, Uber, LinkedIn..
+
+The core graph architecture is basically supported by only two 'logical' tables -objects and edges - which supports the generic social network concepts and provides super efficient way create new app patterns simply by creating new object types and edges. This architecture provides efficient serving/operational architecture and offers a fundamental data graph architecture for AI models for both semantic operations, building custom models and Graph Rag like operations.
+
+Objects ids are 64bit int, with custom format similar to [IG](https://www.youtube.com/watch?v=bLyv8zKa5DU) and Snowflake systems.
+
+Objects and other data architectures stored as [protobuf](https://protobuf.dev/).
+
+Graph data is served with a Meta TAO like architecture with Redis in front (with point and range capabilities) and persistent storage(KV store e.g RocksDB+). We have explored and need to further explore the possibility of a single storage product(Redis, RocksDB, new Postgres features) for both cache and persistent storage -to support a new architecture that supports our efficiency, modularity and scalability requirements.
+
+### Video Backend Infra
+
+Custom Node based ffmpeg task executor that supports custom video encoder for short-form video or other usage patterns.
+
+We use advanced video encoding architectures that generates fragmented MP4(ISOBMFF) video variants with fragments and other settings specifically tuned for our client-side custom MSE video player.
+
+Videos/photos are uploaded directly to S3/CDN directly from clients - enabling fast and efficient upload experience. We also support chunked upload for larger files. Currently our architecture supports uploading large files(2GB+) and multiple files at once.
+
+We have experience on various server side video processing/rendering workflows like headless Chrome/Canvas based processing. We also have previous code architecture for executing on-server Cuda based AI models on video/images. We are following recent Webcodecs and agentic video developments.
