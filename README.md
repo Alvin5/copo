@@ -54,6 +54,7 @@
 - Share
   - Native share architecture
   - Open-graph enabled. Content (posts, videos, profile, feeds) shared appears natively in third-party apps(Messages, Whatsapp, X, Telegram...)
+  - URL Shortener with referral analytics and tracking functionality, built for supporting user-share revenue sharing models and other growth tactics.
 - Report/Block User/Post/Comment
 - Embeddable Architecture
   - Embed apps/feeds/profiles/posts in your website or mobile app
