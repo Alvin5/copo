@@ -6,20 +6,32 @@
 - contact@alvin5.com
 - bora@alvin5.com
 
+Demo App
+[Copo.st](https://copo.st) (Desktop/Mobile Web)
+iOS App (https://apps.apple.com/us/app/copo-st/id6737266643)
+Android App (https://play.google.com/store/apps/details?id=copost.mainapp2)
+
+Example Client App (Old)
+[VirkSocial.com](https://virksocial.com)
+iOS App (https://apps.apple.com/us/app/virk-social-share-scroll/id6447531101)
+Android App (https://play.google.com/store/apps/details?id=com.virk.social)
+
 # Features
 
 - Multi-platform > Web, mobile web, native (iOS, Android), TV or embed in your existing apps and websites. Web-embeddable.
+- 'Single' agentic code base for all platforms - unique development speed/efficiency.
 - Video/Photo/GenAI posts (Vertical/Horizontal)
 - Short-form (and long form) video platform
 - GenAI Enabled Social Platform
-  - Direct Integration with OpenAI
-  - AI Video/Image creation with Sora2(Sora-like social genai app platform). Create, share, comment, remix...
+  - Direct integration with OpenAI
+  - AI Video/Image creation with Sora2(and other models\*)(Sora-like social genai app platform). Create, share, comment, remix...
   - Fal/Replicate integration\*
 - User profiles
-  - Pinned posts, links, profile customization, custom feeds(e.g. playlist, series)
+  - Pinned posts, reposts, lists, links, profile customization, custom feeds(e.g. playlist, series)
 - Follow Users/Feeds...
 - Channels
 - Bookmarks
+- Likes (Users, comments, feeds, objects...)
 - Reposts
 - Feeds (Users can create public feeds/series)
 - Hashtags, mentions, links
@@ -28,7 +40,7 @@
 - User notification/activity feed
 - Comments
 - Action buttons for posts
-- Custom feeds (Public/Private, single/multi user, shareable, instant/shareable/embeddable feeds)
+- Custom feeds (Public/Private, single/multi user, shareable, instant/shareable/embeddable feeds)(E.g. ShortDrama use case)
 - Location features: Nearby feeds, map\*
 - Locked posts (Video plays blurred, users pay to unlock post)
 - Locked feeds
@@ -61,15 +73,31 @@
 - Embeddable Architecture
   - Embed apps/feeds/profiles/posts in your website or mobile app
   - Control embedded web-app from your web-app/mobile-app via API
-- Direct Integration with Meta Marketing Platform
-  - Web/Mobile conversion tracking
-  - Automated ad creation with Meta Marketing API
+- Onboarding Flow
+  - Dynamic onboarding flow
+  - Available Web and Native (E.g. Web-to-app channel)
+  - Fully functional onboarding sceen and app works in Ad-Clicked in-app webview (E.g Instagram, Tiktok..)
+- In-house Growth/Marketing Architecture
+  - Direct Integration with Meta Marketing Platform
+  - Web/Mobile conversion tracking, App Events integration
+  - Automated ad/video creation with Meta Marketing API
+  - Viral Tactics, Invite codes, referall codes/revenue sharing
+  - Agentic A/B testing/growth platform.
+  - Agentic browser/mobile/computer-use models for automated social interaction & growth.
 
 # Technical Infra
 
 ## Frontend
 
 TODO
+
+- Continuously over engineered client
+- Bare metal client. React, Webpack...
+- Unique 'single' code base for web, mobile web, and native apps.
+- Unique architecture that mimics native app user experience (Not React Native, our custom tech framework)
+- Custom Video Player
+  - This is one of our core innovations, 'Universal Video Feed Player' that works both on web and mobile, and also embeddable everywhere.
+  - Youtube, Tiktok, Instagram grade video tech architecture.
 
 ## Backend
 
