@@ -1,5 +1,9 @@
 # Copo
 
+Open platform for specialized, community and utility-based social apps.
+
+Launch, operate and grow TikTok/Instagram-grade specialized social platforms.
+
 [Copo.st](https://copo.st)  
 [Alvin5, Inc](https://alvin5.com)
 
@@ -7,14 +11,16 @@
 - bora@alvin5.com
 
 Demo App
-[Copo.st](https://copo.st) (Desktop/Mobile Web)
-iOS App (https://apps.apple.com/us/app/copo-st/id6737266643)
-Android App (https://play.google.com/store/apps/details?id=copost.mainapp2)
+
+- [Copo.st](https://copo.st) (Desktop/Mobile Web)
+- [iOS App](https://apps.apple.com/us/app/copo-st/id6737266643)
+- [Android App](https://play.google.com/store/apps/details?id=copost.mainapp2)
 
 Example Client App (Old)
-[VirkSocial.com](https://virksocial.com)
-iOS App (https://apps.apple.com/us/app/virk-social-share-scroll/id6447531101)
-Android App (https://play.google.com/store/apps/details?id=com.virk.social)
+
+- [VirkSocial.com](https://virksocial.com)
+- iOS App (https://apps.apple.com/us/app/virk-social-share-scroll/id6447531101)
+- Android App (https://play.google.com/store/apps/details?id=com.virk.social)
 
 # Features
 
