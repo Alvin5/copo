@@ -1,8 +1,8 @@
 # Copo
 
-Open platform for specialized, community and utility-based social apps.
+Open platform for creating - specialized, community and utility-based social apps.
 
-Launch, operate and grow TikTok/Instagram-grade specialized social platforms.
+Launch, operate and grow your TikTok/Instagram-grade specialized social apps.
 
 [Copo.st](https://copo.st)  
 [Alvin5, Inc](https://alvin5.com)
@@ -25,7 +25,7 @@ Example Client App (Old)
 # Features
 
 - Multi-platform > Web, mobile web, native (iOS, Android), TV or embed in your existing apps and websites. Web-embeddable.
-- 'Single' agentic code base for all platforms - unique development speed/efficiency.
+- Our unique 'Single' agentic code base for all platforms - unique development speed/efficiency.
 - Video/Photo/GenAI posts (Vertical/Horizontal)
 - Short-form (and long form) video platform
 - GenAI Enabled Social Platform
@@ -103,7 +103,14 @@ TODO
 - Unique architecture that mimics native app user experience (Not React Native, our custom tech framework)
 - Custom Video Player
   - This is one of our core innovations, 'Universal Video Feed Player' that works both on web and mobile, and also embeddable everywhere.
+  - We developed our own custom feed video player using low-level Media Source Extensions(MSE) and WebCodecs, tightly coupled with our server-side video encoding architecture. The video player feed architecture uses advanced virtualizations, preload, caching and streaming architectures for fast, efficient video load/play/serve.
   - Youtube, Tiktok, Instagram grade video tech architecture.
+- Camera and Posting architecture
+  - Unique web-based camera that works both on native apps, mobile web, desktop web and embedded mode
+  - Zoom and other features
+  - Pre-Compress/Process videos on client side with the new WebCodec architecture
+  - Fast uploading architecture directly from client to CDN
+  - Multi-file upload architecture (Upload multiple files at once to a feed. E.g. Short-drama apps)
 
 ## Backend
 
